@@ -1,0 +1,10 @@
+{
+	"id": "com.akanster.bounce.free",
+	"version": "1.5.0",
+	"vendor": "Akanster",
+	"type": "web",
+	"main": "index.html",
+	"title": "Bounce!",
+	"icon": "icon.png",
+	"uiRevision":2
+}

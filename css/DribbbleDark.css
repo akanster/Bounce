@@ -1,0 +1,339 @@
+/* Copyright 2011 Akanster. All rights reserved. */
+
+
+/***************************************************/
+body {
+	/* background-color: #232323; old color before glyphish */
+	background-color: #2A2A2C; 
+	/* font-family: Verdana; */
+}
+
+.header-text { 
+	font-size: 32px;
+	font-weight: bold;
+	color: #FF99BE;
+	/*  color: #EA4C88; */
+	margin-top: -5px;
+	margin-bottom: -6px;
+}
+
+/***************************************************/
+/*
+about pane
+*/
+
+.about {
+	text-align: center;
+	background-color: #2A2A2C; 
+	padding-top: 90px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #fff;
+}
+
+/***************************************************/
+/*
+browse
+*/
+
+.browse {
+	background-color: #212121; 
+}
+
+.shot-row {
+	padding: 10px 4px;
+}
+
+
+.shot-title {
+	font-size: 14px;
+	font-weight: 500;
+	color: #212121;
+	
+	text-align: center;
+	background-color: #EFEDED;
+	border: solid 1px #EFEDED;
+	
+	padding: 2px 8px;
+	-webkit-border-radius: 10px;
+	
+	text-shadow: #070609;
+}
+
+.shot-image {
+	padding: 4px;
+	
+	/* distorts irregular sized images */ 
+	height: 150px;
+	width: 200px;
+}
+
+.bottom-toolbar {
+/*
+	background-color: #B2D73A;
+*/
+}
+
+.shot-details { 
+	background-color: #EBEBEB;
+	border-top: 3px solid #2A2A2C;
+}
+
+/***************************************************/
+/*
+details view
+*/
+
+.details {
+	background-color: #212121; 
+}
+
+
+.shot-info-block {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.shot-name {
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.shot-image-large { 
+	padding: 4px;
+	background-color: #fff; 
+	
+	/* shots are typically this size but not always. Others will be stretched. */
+	height: 300px;
+	width: 400px;
+}
+
+.player-image { /* commenter avatar */
+	padding: 2px;
+	background-color: #fff; 
+	
+	margin-top: 10px; 
+	/* player avatar will always be this size */
+	height: 50px;
+	width: 50px;
+}
+
+.shot-info-box { /* box with player name & date. Next to avatar */
+	color: #A9A9A9;
+	font-size: 16px;
+	padding-left: 10px;
+	
+	margin-top: 10px;
+}
+
+.player-name {
+	color: #EA4C88;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.shot-date {
+}
+
+.shot-stats { /* rowgroup with shot stats */
+	margin-top: 15px; 
+	margin-right: 15px;
+	padding-left: 10px;
+}
+
+.rebound-block { /* display only if this shot is a rebound */
+	padding-left: 10px;
+}
+
+.rebound-image { /* display only this shot is a rebound */
+	padding: 2px;
+	background-color: #fff; 
+	
+	/* margin-top: 10px; */
+	/* player avatar will always be this size */
+	height: 65px;
+	width: 65px;
+}
+
+.rebound-info-box { /* rebound header txt, rebound shot name & player name */
+	color: #A9A9A9;
+	font-size: 16px;
+	padding-left: 10px;
+	
+	margin-top: 3px;
+}
+
+.rebound-name { 
+	font-weight: bold;
+	color: #fff;
+}
+
+.rebound-player { 
+	font-weight: bold;
+	color: #EA4C88;
+}
+
+.comments-block { /* holds responses text & list & button */
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+.comments-count { /* e.g. "12 Responses" */
+	/* color: #EA4C88; */
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 15px;
+	/* padding-bottom: 5px; */
+}
+
+.comments-list { /* this is our list object! */	
+}
+
+.comment-item { /* each comment/list item */
+	/* background-color: #4A515A; */
+	margin-right: 10px;
+	border: 0px;	
+}
+
+.comment-avatar {
+	margin-top: 5px; /* bring commenter avatar down to align with commenter name */
+	padding: 1px;
+	background-color: #fff; 
+	
+	/* player avatar will always be this size */
+	height: 50px;
+	width: 50px;
+}
+
+.comment-info-box { /* box with commenter name & comment text */
+	color: #fff;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.comment-poster { /* commenter name */
+	font-weight: bold;
+	color: #EA4C88;
+}
+
+.comment-text { 
+}
+
+.comment-text a {
+	color: #92C5FC;
+}
+
+.comment-date { 
+	font-style: italic;
+	font-size: 13px;
+}
+
+.more-responses-button {
+    margin-left: auto;
+    margin-right: auto;
+	width: 200px;
+}
+
+.share-popup {
+	margin: -5px;
+	padding: 0px;
+}
+
+/*********************************************************/
+/*
+profile view
+*/
+
+.player {
+	background-color: #212121; 
+}
+
+.profile-block {
+	/* horizonally center block */
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-top: 15px; 
+	width: 300px;  /* decide on width when app is done */
+	
+	color: #A9A9A9;
+	font-size: 16px;
+}
+
+.profile-image { /* commenter avatar */
+	padding: 2px;
+	background-color: #fff; 
+	
+	/* player avatar will always be this size */
+	height: 80px;
+	width: 80px;
+	
+	margin-right: 15px;
+}
+
+.profile-name {
+	color: #EA4C88;
+	font-size: 20px;
+	font-weight: bold;
+}
+.profile-location-block {
+	margin-top: 3px;
+	vertical-align: middle;
+}
+
+.profile-location-image {
+	height: 18px;
+}
+
+.profile-location {
+	margin-left: 5px;
+}
+
+.profile-twitter-block {
+	vertical-align: middle;
+}
+
+.profile-twitter {
+	margin-left: 5px;
+}
+
+.profile-twitter-image {
+	height: 18px;
+}
+
+.profile-website {
+	margin-left: 5px;
+}
+
+.profile-web-image {
+	height: 18px;
+}
+
+/**
+* below profile name, details & pic
+***************************/
+
+.players-shots {
+	margin: 12px;
+	padding: 4px;
+	background-color: #fff;
+	
+	height: 150px;
+	width: 200px;
+}
+
+.follower-avatar { /* commenter avatar */
+	margin: 8px;
+	padding: 2px;
+	background-color: #fff; 
+	
+	/* player avatar will always be this size */
+	height: 80px;
+	width: 80px;
+}
